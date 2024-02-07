@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+    font-family:'awesome';
+    src: url(assets/font/fontawesome-webfont.ttf);
+     
+}
+
+@font-face {
+  font-family:'poppins-light';
+  src: url(assets/font/poppins/Poppins-Light.ttf);
+   
+}
+
+@font-face {
+  font-family:'bebas-nehue';
+  src: url(assets/font/Bebas_Neue/BebasNeue-Regular.ttf);
+   
+}
+
+@font-face {
+  font-family:'luckiestGuy';
+  src: url(assets/font/Luckiest_Guy/LuckiestGuy-Regular.ttf);
+   
+}
+
+.poppins{
+  font-family: 'poppins-light';
+}

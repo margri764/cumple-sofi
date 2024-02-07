@@ -1,0 +1,69 @@
+
+
+<div style="background-image: url('assets/header-4.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat; height: 100vh;">
+</div>
+
+<div style=" background-color: #FF6F91;">
+
+  <div class="text-center poppins " style="color: white;">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p  style="font-size: 2em;"> Fiesta</p>
+    <p  style="font-size: 2.2em;"> Día & Hora</p>
+    <p  style="font-size: 1.3em;"> Viernes 8 de Marzo | 21:30hs</p>
+    <p  style="font-size: 2.2em;"> Lugar</p>
+    <p  style="font-size: 1.5em;"> Ladrillo Disco</p>
+  </div>
+  
+  <div class="d-flex justify-content-center " style="height: 60px;">
+    <button class="btn" >Como llegar </button>
+  </div>
+
+  <!-- style="border: 2px solid blue; margin-top: 80px; z-index: 999;" -->
+
+  <carousel [cellWidth]="'100%'" [cellsToShow]="1"  [height]= "800" [arrows]=true [autoplay]=true style="" >
+        
+    <div class="carousel-cell" *ngFor="let pic of arrPicture, let item, index as i"> 
+            <img [src]=pic.path alt="oferta" class="img-fluid"  >
+    </div>
+
+  </carousel>
+
+  <div class="text-center poppins" style="color: white;  padding: 10px;">
+
+    <div class="d-flex justify-content-center align-items-center">
+      <span style="font-size: 1.3em;"> Tu compañía es el mejor regalo 
+        <span class="material-icons align-middle">
+        favorite_border
+        </span>
+        <br> 
+        pero si deseas hacerme un obsequio </span>
+    </div>
+    
+
+
+    <span class="material-icons animate__animated animate__swing animate__infinite	infinite" style="font-size: 3em;"> card_giftcard</span>
+ 
+  </div>
+
+
+
+
+
+ <div style="margin-top: 90px;">
+    <img src="assets/footer-2.jpg" class="img-fluid">
+  </div> 
+
+  
+
+</div>
+
+
+  
+
+
+
+
